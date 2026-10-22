@@ -47,7 +47,6 @@ again = 'yes'
 while again == 'yes' or again == 'y':
 	num = random.randint(1, 2)
 	choice = ask1()
-	print(num)
 	if choice == 'again':
 		again = input("Do you want to play again?").lower()
 	else:
